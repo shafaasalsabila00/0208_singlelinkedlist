@@ -1,9 +1,11 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 
-// membuat struct node
-struct Node
+class Node
 {
+public:
     int noMhs;
     Node *next;
 };
+
